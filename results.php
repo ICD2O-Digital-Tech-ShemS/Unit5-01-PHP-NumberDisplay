@@ -5,7 +5,7 @@ $numbers2 = "";
 // Use correct POST keys
 $min = $_POST['minNumber'];
 $max = $_POST['maxNumber'];
-$counter = $minNumber;
+$counter = $min;
 
 // First loop: from 0 to min
 while ($counter == $min) {
