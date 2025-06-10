@@ -30,6 +30,6 @@
   </form>
 
   <br/>
-  <iframe id="results" name="results" style="width:100%; height:200px; border:1px solid #ccc;"></iframe>
+  <iframe id="results" name="results"></iframe>
 </body>
 </html>
