@@ -1,9 +1,9 @@
 <?php
-$minOutput = "";
-$maxOutput = "";
 $counter = 0;
-$numbers = ""
-$numbers2 = ""
+$numbers = "";
+$numbers2 = "";
+$minOutput = $_POST['minOutput'];
+$maxOutput = $_POST['maxOutput'];
 
     while ($counter <= $min) {
         $numbers = $numbers + $counter + "<br>"
