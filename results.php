@@ -1,0 +1,20 @@
+<?php
+$minOutput = "";
+$maxOutput = "";
+$counter = 0;
+$numbers = ""
+$numbers2 = ""
+
+    while ($counter <= $min) {
+        $numbers = $numbers + $counter + "<br>"
+        $counter = $counter + 1
+    }
+
+    while ($counter <= $max) {
+        $numbers2 = $numbers2 + $counter + "<br>"
+        $counter = $counter +1
+    }
+?>
+<h3>Results:</h3>
+<?php echo "$numbers" ?>
+<?php echo "$numbers2" ?>

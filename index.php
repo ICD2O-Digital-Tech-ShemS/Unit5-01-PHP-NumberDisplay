@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LOOP</title>
   <meta charset="utf-8" />
   <meta name="description" content="Speed of light in different mediums" />
   <meta name="keywords" content="immaculata, icd2o" />
   <meta name="author" content="Kukwac" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./Favicons/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./Favicons/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./Favicons/favicon-32x32.png" />
-  <link rel="manifest" href="./Favicons/site.webmanifest" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
+  <title>LOOP</title>
 </head>
 <body>
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-  <?php 'calculate.php'; ?>
-
-  <form method="post" action="">
+  <form action="./results.php" method="post" target="results">
     <table>
       <tr>
         <td>
@@ -39,14 +28,13 @@
         </td>
       </tr>
     </table>
-    <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-      Display Result
-    </button>
+    <input type="submit" value="ENTER">
   </form>
 
-  <br />
-  <div id="min"><?php echo $minOutput; ?></div>
-  <div id="max"><?php echo $maxOutput; ?></div>
-
+  <br/>
+    <iframe id="" name="results">			
+      <div id="$numbers"></div>
+      <div id="$numbers2"></div>
+    </iframe>
 </body>
 </html>
