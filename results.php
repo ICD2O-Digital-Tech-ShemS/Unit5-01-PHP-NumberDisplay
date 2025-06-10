@@ -1,11 +1,11 @@
 <?php
-$counter = $minNumber;
 $numbers = "";
 $numbers2 = "";
 
 // Use correct POST keys
 $min = $_POST['minNumber'];
 $max = $_POST['maxNumber'];
+$counter = $minNumber;
 
 // First loop: from 0 to min
 while ($counter == $min) {
