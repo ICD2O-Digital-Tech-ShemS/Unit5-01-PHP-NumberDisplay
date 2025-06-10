@@ -15,15 +15,13 @@
         <td>
           <h6>Min Number</h6>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="number" name="minNumber" required />
-            <label class="mdl-textfield__label">Enter number ...</label>
+            <input class="mdl-textfield__input" type="number" name="MinNumber" />
           </div>
         </td>
         <td>
           <h6>Max Number</h6>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="number" name="maxNumber" required />
-            <label class="mdl-textfield__label">Enter number ...</label>
+            <input class="mdl-textfield__input" type="number" name="MaxNumber" />
           </div>
         </td>
       </tr>
