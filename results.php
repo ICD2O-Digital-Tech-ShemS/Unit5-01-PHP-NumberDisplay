@@ -1,5 +1,5 @@
 <?php
-$counter = 0;
+$counter = $minNumber;
 $numbers = "";
 $numbers2 = "";
 
@@ -8,12 +8,12 @@ $min = $_POST['minNumber'];
 $max = $_POST['maxNumber'];
 
 // First loop: from 0 to min
-while ($counter <= $min) {
+while ($counter == $min) {
     $numbers = $numbers . $counter . "<br>";
     $counter = $counter + 1;
 }
 
-// Second loop: from (min+1) to max
+// Second loop: from min to max
 while ($counter <= $max) {
     $numbers2 = $numbers2 . $counter . "<br>";
     $counter = $counter + 1;
