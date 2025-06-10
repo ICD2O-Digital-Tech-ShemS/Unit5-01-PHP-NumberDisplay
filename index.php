@@ -15,13 +15,13 @@
         <td>
           <h6>Min Number</h6>
           <div class="mdl-textfield mdl-js-textfield">
-            <input type="number" id="minNumber" placeholder="Min Number" name="Min number">
+            <input type="number" id="minNumber" placeholder="Min Number" name="minNumber">
           </div>
         </td>
         <td>
           <h6>Max Number</h6>
           <div class="mdl-textfield mdl-js-textfield">
-          <input type="number" id="maxNumber" placeholder="Max Number" name="Max number">
+            <input type="number" id="maxNumber" placeholder="Max Number" name="maxNumber">
           </div>
         </td>
       </tr>
@@ -30,9 +30,6 @@
   </form>
 
   <br/>
-    <iframe id="results" name="results">			
-      <div id="$numbers"></div>
-      <div id="$numbers2"></div>
-    </iframe>
+  <iframe id="results" name="results" style="width:100%; height:200px; border:1px solid #ccc;"></iframe>
 </body>
 </html>

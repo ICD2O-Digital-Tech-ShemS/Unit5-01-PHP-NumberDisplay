@@ -2,19 +2,23 @@
 $counter = 0;
 $numbers = "";
 $numbers2 = "";
-$minOutput = $_POST['minOutput'];
-$maxOutput = $_POST['maxOutput'];
 
-    while ($counter <= $min) {
-        $numbers = $numbers + $counter + "<br>"
-        $counter = $counter + 1
-    }
+// Use correct POST keys
+$min = $_POST['minNumber'];
+$max = $_POST['maxNumber'];
 
-    while ($counter <= $max) {
-        $numbers2 = $numbers2 + $counter + "<br>"
-        $counter = $counter +1
-    }
+// First loop: from 0 to min
+while ($counter <= $min) {
+    $numbers = $numbers . $counter . "<br>";
+    $counter = $counter + 1;
+}
+
+// Second loop: from (min+1) to max
+while ($counter <= $max) {
+    $numbers2 = $numbers2 . $counter . "<br>";
+    $counter = $counter + 1;
+}
 ?>
 <h3>Results:</h3>
-<?php echo "$numbers" ?>
-<?php echo "$numbers2" ?>
+<?php echo $numbers; ?>
+<?php echo $numbers2; ?>
